@@ -1,0 +1,29 @@
+# Composer
+/vendor/
+
+# Environment
+.env
+.env.local
+
+# Upload files (giữ thư mục, bỏ file)
+public/uploads/*
+!public/uploads/.gitkeep
+
+# Images (phòng trường hợp upload nhầm)
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.webp
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
